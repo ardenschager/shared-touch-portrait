@@ -145,12 +145,19 @@ class PlayerManager {
 
 document.querySelector('button')?.addEventListener('click', async () => {
 	console.log('audio is ready');
-})
+});
+
+function preventBehavior(e) {
+    e.preventDefault(); 
+};
+
+document.addEventListener("touchmove", preventBehavior, {passive: false});
 
 function setup() {
     background(220);
     createCanvas(windowWidth, windowHeight);
     manager = new PlayerManager();
+    noCursor();
 }
 
 function draw() {
