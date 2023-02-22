@@ -16,6 +16,13 @@ class Cursor {
     }
 }
 
+function preventBehavior(e) {
+    e.preventDefault(); 
+};
+
+document.addEventListener("touchmove", preventBehavior, {passive: false});
+
+
 class PlayerCanvas {
     constructor(c0, c1) {
         this.pressed = false;

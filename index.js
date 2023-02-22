@@ -19,7 +19,7 @@ const CONNECTION_TYPE = {
     admins: 'admins',
 }
 
-const NUM_INTERFACES = 100;
+const NUM_INTERFACES = 5;
 const STEP_SIZE = 0.01;
 const PLAY_CHANCE = 0.01;
 const STOP_CHANCE = 0.01;
