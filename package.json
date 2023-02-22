@@ -1,0 +1,19 @@
+{
+  "name": "salon-demo",
+  "version": "1.0.0",
+  "description": "demo for GA salon 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Nat Schager",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "p5": "^1.5.0",
+    "socket.io": "^4.6.0",
+    "tone": "^14.7.77"
+  }
+}
